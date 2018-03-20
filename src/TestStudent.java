@@ -1,8 +1,5 @@
-
 public class TestStudent {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Student s1 = new Student("1440712345","Piwat");
 		Student s2 = new Student("1440767890","Dara");
 		Course c1 = new Course("CS455","Computer Network");
@@ -19,5 +16,4 @@ public class TestStudent {
 		System.out.println(r2.fromStudent.getName()+ " has " +r2.getGrade() +" in " +r2.toCourse.getId() + " " +r2.toCourse.getName());
 		System.out.println(r3.fromStudent.getName()+ " has " +r3.getGrade() +" in " +r3.toCourse.getId() + " " +r3.toCourse.getName());
 	}
-
 }

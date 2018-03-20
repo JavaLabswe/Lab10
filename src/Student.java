@@ -4,10 +4,10 @@ public class Student extends Register {
     private String name;
 	
 	public Student() {
-		super();
+		super(fromStudent,toCourse);
 	}
-	public void Student(String id,String name) {
-		super(id,name);
+	public Student(String id,String name) {
+		super(fromStudent,toCourse);
 		this.id = id;
 		this.name = name;
 	}

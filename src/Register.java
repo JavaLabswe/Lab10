@@ -1,9 +1,7 @@
-
 public class Register  {
-	String grade = "None";
+	private String grade = "None";
 	static Student fromStudent;
 	static Course toCourse;
-	
 	public Register(Student fromStudent,Course toCourse) {
 		this.fromStudent = fromStudent;
 		this.toCourse = toCourse;
@@ -17,5 +15,4 @@ public class Register  {
 	public String getGrade() {
 		return grade;
 	}
-	
 }

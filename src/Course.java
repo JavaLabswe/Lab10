@@ -1,13 +1,11 @@
-
 public class Course extends Register {
 	 private String id;
-	 private String name;
-	
+	 private String name;	
 	public Course() {
-		super(fromStudent, toCourse);
+		super(fromStudent,toCourse);
 	}
-	public void Course(String id,String name) {
-		super(id);
+	public Course(String id,String name) {
+		super(fromStudent,toCourse);
 		this.id = id;
 		this.name = name;
 	}
@@ -23,5 +21,4 @@ public class Course extends Register {
 	public String getName() {
 		return name;
 	}
-	
 }
