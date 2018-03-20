@@ -1,8 +1,6 @@
-
 public class Book {
-	String title = "No name";
-	String type = "No type";
-	
+	private String title = "No name";
+	private String type = "No type";
 	public Book() {
 		
 	}
